@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Button from '../Button/Button';
 import logo from '../../logo.png';
 import "./Header.css";
 

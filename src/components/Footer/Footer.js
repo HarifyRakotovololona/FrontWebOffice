@@ -6,10 +6,10 @@ function Footer(props) {
         <div className="Footer">
           <div className="FooterContenu">
               <div className="FooterLien">
-                <a href="#">Privacy</a>
-                <a href="#">Terms & Conditions</a>
-                <a href="#">Acceptable Use Policy</a>
-                <a href="#">Download The Games</a>
+                <p>Privacy</p>
+                <p>Terms & Conditions</p>
+                <p>Acceptable Use Policy</p>
+                <p>Download The Games</p>
               </div>
           </div>
         </div>

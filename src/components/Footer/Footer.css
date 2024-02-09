@@ -15,7 +15,7 @@
     justify-content: center;
 }
 
-.Footer .FooterLien a{
+.Footer .FooterLien p{
     color: #ffffff;
 
     font-family: 'Gilroy';
@@ -28,7 +28,7 @@
     padding-right: 2rem;
 }
 
-.Footer .FooterLien a:hover{
+.Footer .FooterLien p:hover{
 	color: rgb(255, 255, 255);
     cursor: pointer;
 }
