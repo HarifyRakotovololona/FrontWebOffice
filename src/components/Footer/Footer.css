@@ -1,0 +1,34 @@
+.Footer{
+    border: none;
+    background-color: #217756;
+    font-family: 'Gilroy';
+
+    padding-top: 0.3rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Footer .FooterContenu .FooterLien{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.Footer .FooterLien a{
+    color: #ffffff;
+
+    font-family: 'Gilroy';
+    font-size: 0.9rem;
+    font-weight: 300;
+
+	text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Footer .FooterLien a:hover{
+	color: rgb(255, 255, 255);
+    cursor: pointer;
+}

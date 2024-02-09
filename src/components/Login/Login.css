@@ -1,0 +1,80 @@
+*{
+  font-family: 'Gotham Rounded';
+  text-transform: uppercase;
+}
+
+.Login {
+  background-color: #217756;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 60%;
+  padding-top: 35px;
+  padding-bottom: 85px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50px;
+}
+
+.LoginContent {
+  background-color: #ecf0f1;
+  padding-top: 20px;
+  padding-bottom: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 40px;
+}
+
+.LoginContentTitle1 p{
+  color: #fcfcfc;
+  padding-bottom: 15px;
+  font-size: 24px;
+}
+
+.LoginContent .LoginContentTitle p {
+  color: #217756;
+  font-size: 18px;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+
+.LoginContent .LoginContentInformation Input {
+  width: 80%;
+  text-align: left;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 22px;
+  margin-bottom: 12px;
+  border: #217756 solid 2px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: #217756;
+  box-sizing: border-box;
+  outline: none; 
+}
+
+.LoginContent .LoginContentInformation Input::placeholder {
+  color: #217756;
+  font-weight: 800;
+}
+
+.LoginContent .LoginButton Button {
+  width: 80%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border: none;
+  border-radius: 25px;
+  background-color: #217756;
+  color: #ecf0f1;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.LoginContent .LoginButton Button:hover {
+  background-color: #82cd47;
+  color: #217756;
+  font-weight: 800;
+}

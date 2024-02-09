@@ -1,0 +1,59 @@
+*{
+    font-family: 'Gotham Rounded';
+}
+
+.Filtre{
+    background-color: #9beb5d;
+    width: auto;
+    height: auto;
+    padding-top: 26px;
+    padding-bottom: 135px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 30px;
+}
+
+.Filtre .FiltreTitre p{
+    font-size: 18px;
+    color: #217756;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.Filtre .FiltreRecherche Input{
+    font-size: 13px;
+    color: #217756;
+    text-transform: uppercase;
+
+    border: none;
+    border-radius: 30px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 75px;
+}
+
+.Filtre .FiltreRecherche Input::placeholder{
+    font-size: 13px;
+    color: #217756;
+    font-weight: 800;
+}
+
+.Filtre .FiltreBoutton Button{
+    font-size: 14px;
+    background-color: #217756;
+    text-transform: uppercase;
+    width: auto;
+    height: auto;
+
+    border: none;
+    border-radius: 30px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 10px;
+}

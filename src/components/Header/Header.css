@@ -1,0 +1,74 @@
+*{
+  font-family: 'Gotham Rounded';
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+  color: #ecf0f1; 
+  z-index: 999; 
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.HeaderLogo {
+  float: left;
+  margin-left: 50px;
+}
+
+.HeaderLogo img{
+  width: 90px;
+}
+
+.HeaderCenter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+}
+
+.HeaderCenter .HeaderNavBar{
+  align-items: center;
+  border: 2px solid #217756;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.HeaderCenter .HeaderNavBar a{
+  text-transform: uppercase;
+  color: #217756;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.HeaderRight {
+  margin-right: 50px;
+}
+
+.HeaderRight a {
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  color: #217756; 
+  cursor: pointer;
+}

@@ -1,0 +1,114 @@
+* {
+    font-family: 'Gotham Rounded';
+}
+
+.Section {
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.Section h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 1.2rem;
+}
+
+.Section .SectionContent1 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 58px;
+    padding-right: 48px;
+}
+
+.Section .SectionContent1 .SectionImage img {
+    border-radius: 50px;
+    height: 80%;
+    width: 100%;
+    position: relative;
+}
+
+.Section .SectionContent1 .SectionImage p {
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    text-align: left;
+    line-height: 40px;
+}
+
+.Section .SectionContent1 .SectionFiltre {
+    position: absolute;
+    top: 0;
+    right: 35px;
+}
+
+.Section .SectionContent1 .SectionButton {
+    justify-content: center;
+}
+
+.Section .SectionContent1 .SectionButton Button {
+    position: absolute;
+    top: 78%;
+    left: 40%;
+    z-index: 2;
+    background-color: #dbdbdb;
+    color: rgb(73, 52, 32);
+    border-radius: 4px;
+    border: none;
+    width: 18rem;
+    height: 4rem;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.Section .SectionContent1 .SectionButton Button:hover {
+    background-color: rgb(23, 97, 119);
+    border: #dbdbdb solid 2px;
+    color: #dbdbdb;
+}
+
+.Section .SectionContent2 {
+    padding-top: 1rem;
+    margin-top: 1.5rem;
+    background-image: url('../../background.png');
+    background-size: cover;
+}
+
+.Section .SectionContent2 .SectionTitle h2{
+    text-align: center;
+    font-size: 24px;
+    color: #217756;
+}
+
+.Section .SectionContent2 .SectionCardFiltre {
+    display: flex;
+    padding-top: 10px;
+    margin-left: 1rem; 
+    margin-right: 2rem;
+}
+
+.Section .SectionContent2 .SectionCardFiltre .SectionFiltre {
+    background-color: #217756;
+    width: 83%;
+}
+
+.Section .SectionContent2 .SectionCardFiltre .SectionCard {
+    /* background-color: blueviolet; */
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    color: aliceblue;
+}
+
+.Section .SectionCard > * {
+    flex-basis: calc(45% - 8rem); 
+    box-sizing: border-box; 
+}
